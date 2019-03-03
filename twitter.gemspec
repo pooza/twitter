@@ -6,7 +6,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'addressable', '~> 2.3'
   spec.add_dependency 'buftok', '~> 0.2.0'
   spec.add_dependency 'equalizer', '~> 0.0.11'
-  spec.add_dependency 'http', '~> 3.0'
+  spec.add_dependency 'http', '~> 4.0'
   spec.add_dependency 'http-form_data', '~> 2.0'
   spec.add_dependency 'http_parser.rb', '~> 0.6.0'
   spec.add_dependency 'memoizable', '~> 0.4.0'
@@ -24,5 +24,5 @@ Gem::Specification.new do |spec|
   spec.require_paths = %w[lib]
   spec.required_ruby_version = '>= 2.3'
   spec.summary = spec.description
-  spec.version = Twitter::Version
+  spec.version = Twitter::Version + '.1'
 end
