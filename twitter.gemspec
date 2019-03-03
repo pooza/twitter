@@ -24,5 +24,5 @@ Gem::Specification.new do |spec|
   spec.require_paths = %w[lib]
   spec.required_ruby_version = '>= 2.3'
   spec.summary = spec.description
-  spec.version = Twitter::Version + '.1'
+  spec.version = '6.2.0.1'
 end
